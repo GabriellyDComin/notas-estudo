@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(255, 232, 188);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #ffc888;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(212, 127, 0);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+header a:hover {
+    background-color: rgb(199, 120, 1);
+}
+
+#exemploid1 {
+    background-color: rgb(0, 30, 255);
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#exemploid2 {
+    background-color: rgb(0, 255, 89);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.exemploclass {
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+h1 {
+    margin: 0 0 15px;
+}
+
+main {
+    padding: 16px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+section h2 {
+    border-bottom: 2px solid rgb(255, 200, 136);
+}
+
+input, textarea, select {
+    width: 99%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #d47f00;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b86f00;
+}

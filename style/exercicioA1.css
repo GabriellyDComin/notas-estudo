@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(135deg, #4b7be5, #bf00d4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+main {
+    margin: 0 auto;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    padding: 120px 20px;
+    width: 380px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 20px;
+       
+}
+
+form button {
+    background: linear-gradient(135deg, #4b7be5, #bf00d4);
+    border: none;
+    padding: 15px 150px;
+    border-radius: 0px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+form button:hover {
+    background-color: #aa69ff;
+}
+
+section p{
+    font-size:small;
+}
+
+input, textarea, select {
+    width: 80%;
+    padding: 15px;
+    border: 1px solid #e4e4e4;
+    border-radius: 0px;
+}

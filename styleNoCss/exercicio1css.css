@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(0, 252, 252);
+    font-family: cursive;
+    margin: 0;
+    padding: 0; 
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgb(132, 255, 255);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 95, 95);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+header a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    margin: 100 0 15; 
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;     
+    background-color: rgb(0, 95, 95);
+}
+
+/* Seções */
+section {
+    background-color:  rgb(175, 255, 255);
+    padding: 20px;
+    margin: 20px auto;     
+    border-radius: 8px;
+    max-width: 1100px; 
+}
